@@ -1,0 +1,54 @@
+.heading{
+    font-size: 23px;
+    width: 100%;
+    margin: 0;
+    box-shadow: 7px 7px 8px rgb(78, 77, 77);
+}
+
+.header_div{
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    box-shadow: 5px 5px 4px rgb(3, 105, 3);
+    font-size: 22px;
+    text-decoration: underline;
+    float: none;
+    padding: 5;
+    margin-bottom: 10px;
+}
+
+.header_div2{
+    font-size: 17px;
+}
+
+body{
+    font-family: 'Kaisei HarunoUmi', serif; 
+}
+
+canvas{
+    border: 2px blue ridge;
+    margin-top: 120px;
+    box-shadow: 5px 5px 8px rgb(88, 86, 86);
+    animation-name: trial;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+@keyframes trial{
+    from {box-shadow:5px 5px 13px rgb(88, 86, 86) ;}
+    to {box-shadow: 5px 5px 13px black;}
+}
+
+.footer_div{
+    line-height: 3;
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(88, 4, 4);
+    color: white;
+    width: 100%;
+}
+
+.results_style{
+    font-size: 15px;
+    text-decoration: underline;
+}
